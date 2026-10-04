@@ -15,7 +15,7 @@ A clean and interactive single-page web application featuring a Detective Conan 
 
 ## 📁 Project Structure
 ```text
-Detective_Conan_Quiz_Frontend/
+Detective_Conan_Quiz/
 │
 ├── css/
 │   └── style.css
