@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ================== HEADER ================== */
+header {
+    padding: 20px;
+    background-color: rgb(2, 2, 54);
+    color: #ffffff;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: system-ui, sans-serif;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: rgb(2, 2, 54);
+}
+
+#logo {
+    width: 180px;
+}
+
+.mouse {
+    cursor: pointer;
+}
+
+/* ================== CONTENT ================== */
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    max-width: 500px;
+    width: 90%;
+}
+
+.question {
+    color: rgb(2, 2, 54);
+    margin-bottom: 15px;
+}
+
+.input-container {
+    margin-top: 15px;
+}
+
+.input-container input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+button {
+    background-color: rgb(2, 2, 172);
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 103);
+    cursor: pointer;
+}
+
+/* ================== FOOTER ================== */
+footer {
+    padding: 15px;
+    background-color: rgb(2, 2, 54);
+    color: #ffffff;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+}
+
+#Flogo {
+    width: 200px;
+}
