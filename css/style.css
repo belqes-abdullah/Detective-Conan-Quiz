@@ -107,37 +107,3 @@ footer {
 #Flogo {
     width: 200px;
 }
-/* ================== MOBILE RESPONSIVE ================== */
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    #logo {
-        width: 140px;
-    }
-
-    nav ul li {
-        padding: 5px;
-    }
-
-    nav ul li a {
-        font-size: 14px;
-    }
-
-    section {
-        width: 95%;
-        margin: 20px auto;
-        padding: 15px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-}
