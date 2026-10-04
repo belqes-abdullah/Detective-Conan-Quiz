@@ -7,18 +7,11 @@ function checkAnswer(inputId) {
         "shinichi",
         "shinichi kudo",
         "kudo",
-        "conan",
-        "conan edogawa",
-        "edogawa conan",
-        "detective conan",
         
         // Arabic variations
         "سينشي",
         "سينشي كودو",
         "كودو",
-        "كونان",
-        "كونان ايدوجاوا",
-        "المحقق كونان"
     ];
 
     // Check if the user's input matches any valid answer
